@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mq
+  rabbitmq:
+    ####连接地址
+    host: 192.168.66.6
+    ####端口号
+    port: 5672
+    ####账号
+    username: guest
+    ####密码
+    password: guest
+    ### 地址
+    virtual-host: /meite_rabbitmq
+server:
+  port: 8083
